@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: ghcr.io/kingmog6/secure-gitops-platform:058307c1021432e92113dce906ad317f0d0a9fef
+          image: ghcr.io/kingmog6/secure-gitops-platform@sha256:e0898011f66e7be453ca19dfeef8bd220153d50f37342d86848317b6e570b217
           ports:
             - containerPort: 8080
           readinessProbe:
